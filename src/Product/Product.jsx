@@ -1,5 +1,6 @@
 import image from "/images/image-product-desktop.jpg"
 import imageMobile from "/images/image-product-mobile.jpg"
+import cart from "/images/icon-cart.svg"
 import ProductCSS from "./Product.module.css"
 
 function Product(){
@@ -22,7 +23,7 @@ function Product(){
                     <h2 className={ProductCSS.discountPrice}>$149.99</h2>
                     <h4 className={ProductCSS.originalPrice}>$169.99</h4>
                 </div>
-                <button><span><img src="./images/icon-cart.svg"></img></span>Add to cart</button>
+                <button><span><img src={cart}></img></span>Add to cart</button>
             </div>            
         </div>
     );
